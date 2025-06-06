@@ -345,8 +345,7 @@
     transition: all 0.2s;
 }
 
-
-.qadam2{
+.qadam2 {
     margin-top: 130px;
     text-align: center;
     display: flex;
@@ -354,29 +353,28 @@
     gap: 20px;
 }
 
-.qadam2 h1{
+.qadam2 h1 {
     font-size: 50px;
 }
 
-
-.qadam2 p{
+.qadam2 p {
     font-size: 20px;
     color: #707070;
 }
 
-.bowl{
+.bowl {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.cnt{
+.cnt {
     display: flex;
     justify-content: center;
 }
 
-.bowl button{
+.bowl button {
     color: white;
     background-color: #0048ff;
     border-radius: 15px;
@@ -389,8 +387,7 @@
     transition: all 0.2s;
 }
 
-
-.bowl button:hover{
+.bowl button:hover {
     color: white;
     background-color: black;
     border-radius: 15px;
@@ -401,4 +398,100 @@
     width: 283px;
     height: 74px;
     transition: all 0.2s;
+}
+
+.step-3 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.step-3 h1 {
+    font-size: 75px;
+    margin-left: 100px;
+}
+
+.step-3 p {
+    margin-left: 100px;
+    font-size: 30px;
+    color: #707070;
+}
+
+.carbon {
+    display: flex;
+    gap: 10px;
+}
+
+.carbon h3 {
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #413e3e;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.create-share {
+    margin-top: 350px;
+    display: flex;
+    justify-content: end;
+    gap: 290px;
+}
+
+.experts {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 70%;
+}
+
+.audience {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.get-start {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.Logo {
+    width: 200px;
+    margin-left: 170px;
+}
+
+.get-start button {
+    width: 472px;
+    height: 102px;
+    font-size: 30px;
+    background-color: #326cf9;
+    border-radius: 17px;
+    border: none;
+    margin-left: 30px;
+    transition: all 0.2s;
+}
+
+.get-start button:hover{
+    width: 472px;
+    height: 102px;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 17px;
+    border: 2px solid #707070;
+    transition: all 0.2s;
+}
+
+
+.footer{
+    margin-left: 150px;
 }
