@@ -495,3 +495,317 @@
 .footer{
     margin-left: 150px;
 }
+
+
+
+/* Mobile responsive uchun media query */
+@media (max-width: 768px) {
+
+    .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.buttons button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #326cf9;
+  background-color: transparent;
+  color: #326cf9;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #326cf9;
+  color: white;
+  transform: scale(1.05);
+}
+
+.start, .demo, .bowl button, .get-start button, #use-case, .blue, .black, .setp-1 button {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  border: 2px solid #326cf9;
+  background-color: transparent;
+  color: #326cf9;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.start:hover {
+  background-color: black;
+  color: #ffffff;
+  border-color: #707070;
+}
+
+.demo:hover {
+  background-color: #326cf9;
+  color: #ffffff;
+  border-color: #326cf9;
+}
+
+.bowl button:hover,
+.get-start button:hover,
+.blue:hover,
+.black:hover,
+.setp-1 button:hover {
+  background-color: black;
+  color: white;
+  border-color: #707070;
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  .header {
+    margin: 20px 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .option {
+    font-size: 16px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .option p {
+    margin-top: 5px;
+  }
+
+  .buttons {
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .buttons p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #use-case {
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+  }
+
+  .buttons button {
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    margin-top: 0;
+    padding: 8px 10px;
+  }
+
+  .asosiy {
+    margin: 50px 15px;
+    font-size: 32px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .button {
+    gap: 30px;
+  }
+
+  .button p {
+    font-size: 22px;
+  }
+
+  .counter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counter p {
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .counter h2 {
+    margin-top: 5px;
+  }
+
+  .button2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .start, .demo {
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .why-creators {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .why {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .setp-1 {
+    margin-top: 50px;
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .setp-1 h1 {
+    font-size: 40px;
+  }
+
+  .setp-1 p {
+    font-size: 18px;
+  }
+
+  .setp-1 button {
+    margin: 40px auto 0 auto !important;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .your-home-page {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+
+  .box2 {
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .textlar {
+    align-items: center;
+    gap: 15px;
+  }
+
+  .textlar h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .click {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .click button {
+    width: 90%;
+    max-width: 200px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .qadam2 {
+    margin-top: 80px;
+    gap: 10px;
+  }
+
+  .qadam2 h1 {
+    font-size: 32px;
+  }
+
+  .qadam2 p {
+    font-size: 16px;
+  }
+
+  .bowl button {
+    margin: 50px auto;
+    display: block;
+    width: 90%;
+    max-width: 280px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 0 !important;
+  }
+
+  .step-3 h1 {
+    font-size: 36px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .step-3 p {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .create-share {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .experts {
+    width: 90%;
+    margin: 0 auto 50px auto;
+  }
+
+  .audience {
+    width: 90%;
+    margin: 0 auto 50px auto;
+  }
+
+  .get-start {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .get-start button {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    margin-left: 0;
+  }
+
+  .footer {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+
+}
