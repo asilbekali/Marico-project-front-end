@@ -161,21 +161,24 @@
 
 .start:hover {
     cursor: pointer;
-    background-color: #326cf9;
+    background-color: black;
+    color: #ffffff;
     width: 313px;
     height: 77px;
     border-radius: 10px;
     border: none;
     transition: all 0.2s;
+    border: 2px solid #707070;
 }
 
 .demo:hover {
     cursor: pointer;
-    color: #707070;
+    color: #ffffff;
     width: 313px;
     height: 77px;
     border-radius: 10px;
     border: 2px solid #326cf9;
+    background-color: #326cf9;
     transition: all 0.2s;
 }
 
@@ -220,6 +223,8 @@
 }
 
 .setp-1 {
+    margin-top: 50px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -236,8 +241,164 @@
     color: #707070;
 }
 
-
-.setp-1 button{
+.setp-1 button {
+    margin-top: 40px;
+    margin-left: 790px;
+    margin-right: 150px;
     width: 313px;
     height: 77px;
+    border-radius: 10px;
+    color: #707070;
+    border: 2px solid #707070;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.setp-1 button:hover {
+    margin-top: 40px;
+    margin-left: 790px;
+    margin-right: 150px;
+    width: 313px;
+    height: 77px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 2px solid #707070;
+    transition: all 0.2s;
+    background-color: #0048ff;
+    cursor: pointer;
+}
+
+.your-home-page {
+    width: 1734.21px;
+    height: 715px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: end;
+}
+
+.textlar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.textlar h1 {
+    font-size: 70px;
+}
+
+.color {
+    color: #3c82f4;
+}
+
+.doira {
+    background-color: #707070;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.click {
+    display: flex;
+    gap: 30px;
+}
+
+.click button {
+    width: 207px;
+    height: 65px;
+}
+
+.blue {
+    background-color: #0048ff;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    transition: all 0.2s;
+}
+
+.blue:hover {
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #707070;
+    font-size: 17px;
+    transition: all 0.2s;
+}
+
+.black {
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #707070;
+    font-size: 16px;
+    color: #707070;
+    transition: all 0.2s;
+}
+
+.black:hover {
+    background-color: #0048ff;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    transition: all 0.2s;
+}
+
+
+.qadam2{
+    margin-top: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qadam2 h1{
+    font-size: 50px;
+}
+
+
+.qadam2 p{
+    font-size: 20px;
+    color: #707070;
+}
+
+.bowl{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cnt{
+    display: flex;
+    justify-content: center;
+}
+
+.bowl button{
+    color: white;
+    background-color: #0048ff;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    margin: 100px;
+    margin-left: 900px;
+    width: 283px;
+    height: 74px;
+    transition: all 0.2s;
+}
+
+
+.bowl button:hover{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid #707070;
+    font-size: 20px;
+    margin: 100px;
+    margin-left: 900px;
+    width: 283px;
+    height: 74px;
+    transition: all 0.2s;
 }
